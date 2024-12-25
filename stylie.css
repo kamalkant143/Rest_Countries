@@ -4,12 +4,43 @@
   font-family: "Poppins", serif;
 }
 
+html{
+    font-size:62.5% ;
+}
+
 .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #001A6E;
     width: 100%;
     height: 100vh;
 }
 
 .container .wrapp-box{
-    background-color: #074799;
+    background-color: #ffffff;
+    max-width: 600px;
+    padding: 2rem;
+}
+
+.container .wrapp-box .input-and-btn{
+    display: flex;
+    gap: 2rem;
+    }
+
+.container .wrapp-box .input-and-btn .result{
+    font-size: 1.8rem;
+    border: none;
+  border-bottom: 2px solid #009990;
+  outline: none;
+  padding-inline: 1rem;
+}
+
+.container .wrapp-box .input-and-btn .btn{
+    font-size: 1.8rem;
+    background-color: #009990;
+    color: #ffffff;
+    padding: 0.5rem 2rem;
+    border:none;
+    cursor: pointer;
 }
