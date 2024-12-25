@@ -44,3 +44,12 @@ html{
     border:none;
     cursor: pointer;
 }
+
+.container .wrapp-box .output-box .flag-box{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.container .wrapp-box .output-box .flag-box h2{
+    font-size: 1.8rem;
+}
